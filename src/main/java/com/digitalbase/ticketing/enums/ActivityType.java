@@ -1,0 +1,1 @@
+package com.digitalbase.ticketing.enums;public enum ActivityType {    COMMENT,    STATUS_CHANGE,    TIME_DEDUCTION}

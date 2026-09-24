@@ -1,0 +1,1 @@
+package com.digitalbase.ticketing.enums;public enum IssueType {    BUG,    FEATURE_REQUEST,    GENERAL_INQUIRY,    BILLING,    OTHER}

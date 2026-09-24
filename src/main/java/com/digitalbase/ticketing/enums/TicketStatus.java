@@ -1,0 +1,1 @@
+package com.digitalbase.ticketing.enums;public enum TicketStatus {    NEW,    CANCELLED,    REVIEWING,    REJECTED,    ASSIGNED,    IN_PROGRESS,    ON_HOLD,    RESOLVED,    REOPENED,    CLOSED}

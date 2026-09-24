@@ -1,0 +1,1 @@
+package com.digitalbase.ticketing.event;public class OAuth2AuthenticationSuccessHandler {}

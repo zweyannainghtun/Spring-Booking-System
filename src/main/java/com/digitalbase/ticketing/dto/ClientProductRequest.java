@@ -1,0 +1,1 @@
+package com.digitalbase.ticketing.dto;import lombok.Data;import java.time.Instant;@Datapublic class ClientProductRequest {    private Long userId;    private Long productId;    private String supportPlan;    private Integer totalMinutes; // ပြင်ဆင်ထားသည်    private Instant planEndDate;}

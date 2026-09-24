@@ -1,0 +1,1 @@
+package com.digitalbase.ticketing.service;import com.digitalbase.ticketing.dto.ClientProductRequest;import com.digitalbase.ticketing.dto.ClientProductResponse;import java.util.List;public interface ClientProductService {    ClientProductResponse assignProductToClient(ClientProductRequest request);    List<ClientProductResponse> getMyProducts(String email);}

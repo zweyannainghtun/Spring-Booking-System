@@ -1,0 +1,1 @@
+package com.digitalbase.ticketing.enums;public enum TokenType {    ACCESS_TOKEN,    REFRESH_TOKEN,}
