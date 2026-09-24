@@ -1,0 +1,1 @@
+package com.digitalbase.ticketing.service;import com.digitalbase.ticketing.dto.UserCreationRequest;import com.digitalbase.ticketing.dto.ChangePasswordRequest;public interface UserService {    String createUserByAdmin(UserCreationRequest request);    String changePassword(String email, ChangePasswordRequest request); // ထပ်တိုးထားသော Method}

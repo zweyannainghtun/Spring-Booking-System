@@ -1,0 +1,1 @@
+package com.digitalbase.ticketing.service;public interface EmailService {    void sendOtpEmail(String toEmail, String otpCode);    void sendAccountCreationEmail(String toEmail, String name, String plainPassword, String role);}

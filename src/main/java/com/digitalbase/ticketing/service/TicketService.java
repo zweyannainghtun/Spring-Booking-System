@@ -1,0 +1,1 @@
+package com.digitalbase.ticketing.service;import com.digitalbase.ticketing.dto.CreateTicketRequest;import com.digitalbase.ticketing.model.Ticket;public interface TicketService {    // Ticket အသစ်ဖန်တီးမည့် Method ကို ကြေညာခြင်း    Ticket createTicket(CreateTicketRequest request, Long customerId);}
