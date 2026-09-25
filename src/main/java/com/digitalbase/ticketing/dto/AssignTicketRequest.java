@@ -1,0 +1,1 @@
+package com.digitalbase.ticketing.dto;import lombok.Data;@Datapublic class AssignTicketRequest {    private Long developerId;    private String message; // Admin ဘက်မှ ညွှန်ကြားလိုသော မှတ်ချက် (Optional)}

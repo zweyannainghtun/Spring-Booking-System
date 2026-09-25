@@ -1,0 +1,1 @@
+package com.digitalbase.ticketing.service;import org.springframework.web.multipart.MultipartFile;import java.util.List;public interface FileStorageService {    // ဖိုင်ပေါင်းများစွာကို တစ်ပြိုင်နက် သိမ်းဆည်းရန်    List<String> storeFiles(List<MultipartFile> files);    // ဖိုင်တစ်ခုချင်းစီကို သိမ်းဆည်းရန်    String storeFile(MultipartFile file);}

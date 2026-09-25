@@ -1,1 +1,0 @@
-package com.digitalbase.ticketing.enums;public enum Team {    BACKEND,    FRONTEND,    SUPPORT}
